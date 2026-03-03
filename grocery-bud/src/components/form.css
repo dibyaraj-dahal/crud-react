@@ -1,0 +1,25 @@
+.form-control {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-control input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background: #4cafef;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #379edb;
+}
