@@ -1,28 +1,20 @@
 .single-item {
-  display: grid;
-  grid-template-columns: auto 1fr auto auto;
-  column-gap: 1rem;
+  display: flex;
   align-items: center;
+  gap: 10px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
 }
 
-.single-item .btn {
+.single-item button {
+  border: none;
+  background: transparent;
   cursor: pointer;
-  color: #fff;
-  background: #06b6d4;
-  border: transparent;
-  border-radius: 0.25rem;
-  padding: 0.375rem 0.75rem;
-  font-size: 0.75rem;
+  font-size: 18px;
 }
 
-.single-item .btn:hover {
-  background: #0e7490;
-}
-
-.single-item .remove-btn {
-  background: #222;
-}
-
-.single-item .remove-btn:hover {
-  background: #900e0e;
+.completed {
+  text-decoration: line-through;
+  color: gray;
 }
